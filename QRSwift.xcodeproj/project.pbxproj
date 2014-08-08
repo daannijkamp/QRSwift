@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		EA34588A1994B63900EC1C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3458891994B63900EC1C53 /* AppDelegate.swift */; };
-		EA34588C1994B63900EC1C53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34588B1994B63900EC1C53 /* ViewController.swift */; };
 		EA34588F1994B63900EC1C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA34588D1994B63900EC1C53 /* Main.storyboard */; };
 		EA3458911994B63900EC1C53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3458901994B63900EC1C53 /* Images.xcassets */; };
 		EA34589D1994B63900EC1C53 /* QRSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34589C1994B63900EC1C53 /* QRSwiftTests.swift */; };
+		EA3458A71994BCDC00EC1C53 /* CodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3458A61994BCDC00EC1C53 /* CodeGeneratorViewController.swift */; };
+		EA3458A91994BCF900EC1C53 /* CodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3458A81994BCF900EC1C53 /* CodeReaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +29,13 @@
 		EA3458841994B63900EC1C53 /* QRSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3458881994B63900EC1C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3458891994B63900EC1C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA34588B1994B63900EC1C53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA34588E1994B63900EC1C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA3458901994B63900EC1C53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA3458961994B63900EC1C53 /* QRSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA34589B1994B63900EC1C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA34589C1994B63900EC1C53 /* QRSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRSwiftTests.swift; sourceTree = "<group>"; };
+		EA3458A61994BCDC00EC1C53 /* CodeGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeGeneratorViewController.swift; sourceTree = "<group>"; };
+		EA3458A81994BCF900EC1C53 /* CodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeReaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				EA3458891994B63900EC1C53 /* AppDelegate.swift */,
-				EA34588B1994B63900EC1C53 /* ViewController.swift */,
 				EA34588D1994B63900EC1C53 /* Main.storyboard */,
 				EA3458901994B63900EC1C53 /* Images.xcassets */,
 				EA3458871994B63900EC1C53 /* Supporting Files */,
+				EA3458A61994BCDC00EC1C53 /* CodeGeneratorViewController.swift */,
+				EA3458A81994BCF900EC1C53 /* CodeReaderViewController.swift */,
 			);
 			path = QRSwift;
 			sourceTree = "<group>";
@@ -208,8 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA34588C1994B63900EC1C53 /* ViewController.swift in Sources */,
 				EA34588A1994B63900EC1C53 /* AppDelegate.swift in Sources */,
+				EA3458A91994BCF900EC1C53 /* CodeReaderViewController.swift in Sources */,
+				EA3458A71994BCDC00EC1C53 /* CodeGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
